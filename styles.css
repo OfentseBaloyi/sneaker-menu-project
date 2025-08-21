@@ -1,0 +1,96 @@
+ body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+    }
+
+    .container {
+        margin: 20px auto;
+        background: #ff0000;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .header {
+        background: #ff0000;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header h1 {
+        margin: 0;
+        font-size: 45px;
+    }
+
+    .tabs {
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 5px solid #eee;
+        background: #000000;
+    }
+
+    .tab {
+        padding: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .tab.active {
+        border-bottom: 2px solid #ff4500;
+        color: #ff000d;
+    }
+
+    .sneaker {
+        padding: 8px;
+    }
+
+    .sneaker h1 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 50px;
+        color: #ff0202;
+    }
+
+    .order1 {
+        padding-bottom: 15PX;
+    }
+
+    .item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        border: 3px solid rgb(9, 9, 9);
+    }
+
+    .item img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-right: 10px;
+        border-bottom: 5px solid black;
+    }
+
+    .description {
+        flex: 1;
+    }
+
+
+    .description p {
+        margin: 0;
+        font-size: 25px;
+        color: #000000;
+    }
+
+    .shoe-price {
+        font-weight: bold;
+        color: #ff0000;
+        text-align: right;
+        font-size: 35px;
+    }
