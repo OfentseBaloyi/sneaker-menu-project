@@ -8,15 +8,12 @@
         margin: 20px auto;
         border-radius: 15px;
         overflow: hidden;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     }
 
     .header {
         background: #ff0000;
         color: rgb(255, 255, 255);
         text-align: center;
-        justify-content: space-between;
-        align-items: center;
     }
 
     .header h1 {
@@ -107,4 +104,5 @@
   .description p { font-size: 18px; }
   .shoe-price { font-size: 24px; }
   }
+
 
