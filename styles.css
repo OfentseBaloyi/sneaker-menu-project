@@ -94,3 +94,17 @@
 
     }
 
+   @media (max-width: 600px) {
+  .item {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .item img {
+    width: 45vw;
+    height: 45vw;
+    margin-right: 0;
+  }
+  .description p { font-size: 18px; }
+  .shoe-price { font-size: 24px; }
+  }
+
